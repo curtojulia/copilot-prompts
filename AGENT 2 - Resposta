@@ -1,0 +1,255 @@
+# Transferência para Agent 2 – Dados da Julia
+
+> Observação:  
+> - **LLM** = Mensagens geradas pelo modelo (Inner AI Fusion / agente).  
+> - **JULIA** = Suas falas.  
+> - Este arquivo registra, em texto estruturado, o conteúdo passado para o Agent 2 e o plano que ele retornou.
+
+---
+
+## 1. Bloco de contexto enviado ao Agent 2
+
+**LLM (bloco de transferência gerado pelo entrevistador/Agent 1):**
+
+```text
+TRANSFERÊNCIA PARA AGENT 2 – DADOS DA JULIA
+
+CARREIRA_ESCOLHIDA: Especialista em IA Aplicada / ML Engineer focada em GenAI
+HORAS_SEMANA: (não informado explicitamente – considerar como 5–10h/semana, faixa padrão para universitária com estágio)
+EXPERIENCIA: alguma (estágio em consultoria com foco em IA desde nov/2025 + 5º período de Ciências de Dados e IA)
+OBJETIVO: crescimento na função atual (aprofundar o que já conhece, aplicar na prática e se tornar uma boa profissional)
+PREFERENCIA: pessoas, dados e um pouco de código (com visão de que IA/LLMs ajudam no código quando você entende o que está fazendo)
+INTERESSES:
+IA generativa
+Engenharia de prompt
+Agentes de IA
+RAG
+Desenvolvimento (especialmente para entender e gerar sites)
+EXPERIÊNCIAS RELEVANTES:
+Projetos na faculdade na área de tecnologia
+Trabalhos voluntários
+Liderança: chefe de equipe no último ano da escola (liderando crianças do 2º ano do fundamental I até o 3º ano do ensino médio)
+```
+
+**JULIA:**  
+*(nenhuma fala aqui – este bloco foi montado pelo LLM com base na entrevista anterior)*
+
+---
+
+## 2. Mensagem inicial do Agent 2
+
+**LLM (Agent 2):**
+
+```text
+Olá, Julia! Recebi suas informações do entrevistador.
+
+Vejo que você escolheu Especialista em IA Aplicada / ML Engineer focada em GenAI e, considerando sua rotina de faculdade + estágio, vou adaptar o plano pensando em algo em torno de 5–10 horas por semana de estudo focado. Perfeito!
+
+Vou montar agora seu plano completo personalizado.
+```
+
+---
+
+## 3. Visão do dia a dia
+
+**LLM (Agent 2):**
+
+```text
+🧩 VISÃO DO DIA A DIA
+
+Como é o trabalho de um(a) Especialista em IA Aplicada / ML Engineer focada em GenAI:
+
+Entender problemas de negócio do cliente/time e traduzi-los em soluções usando IA (LLMs, RAG, agentes, classificadores, etc.).
+Projetar e implementar pipelines: coleta de dados, preparação, integração com modelos (APIs de LLMs, modelos open-source, vetorização).
+Construir e ajustar soluções como chatbots especializados, sistemas com RAG, fluxos de agentes, automações inteligentes e copilots internos.
+Testar, avaliar e monitorar modelos (qualidade das respostas, alucinações, latência, custo, segurança).
+Colaborar com times de desenvolvimento, dados e negócio para colocar essas soluções em produção e melhorar continuamente.
+```
+
+---
+
+## 4. Mapa de skills
+
+**LLM (Agent 2):**
+
+```text
+🧠 MAPA DE SKILLS
+
+CORE SKILLS (essenciais):
+
+Fundamentos de IA/ML e ciência de dados (dados, métricas, validação, visão estatística básica).
+IA generativa e LLMs (conceitos, uso prático, avaliação, limitações, segurança).
+Engenharia de prompt e orquestração de fluxos (prompting avançado, chain-of-thought, ferramentas, agentes, RAG).
+
+NICE-TO-HAVE (complementares):
+
+Fundamentos de desenvolvimento web / APIs (para integrar modelos em produtos reais).
+Noções de arquitetura de sistemas e MLOps leve (deploy, monitoramento, boas práticas).
+
+FERRAMENTAS E TECNOLOGIAS (ajuste conforme o que você já usa no estágio):
+
+Linguagem: Python (e eventualmente JavaScript/TypeScript para integração web).
+Frameworks/stack de GenAI: libs de LLMs (por ex.: LangChain, LlamaIndex ou similares), vetores e bancos vetoriais.
+Ferramentas de dados e IA: notebooks (Jupyter/Colab), Git, plataformas de modelo/LLM (APIs de provedores de IA).
+```
+
+---
+
+## 5. Roadmap de 90 dias
+
+**LLM (Agent 2):**
+
+```text
+📅 ROADMAP DE 90 DIAS
+
+ADAPTADO PARA: cerca de 5–10 horas/semana
+
+MÊS 1 – FUNDAMENTOS APLICADOS DE GENAI E LLMs
+
+SEMANA 1–2:
+
+Revisar fundamentos de IA/ML e NLP com foco em “o que muda com LLMs” (tokens, embeddings, contexto, fine-tuning vs. prompting).
+Explorar na prática 1–2 provedores de LLM (por exemplo, brincar em playgrounds, testar prompts diferentes e documentar aprendizados).
+
+SEMANA 3–4:
+
+Estudar engenharia de prompt de forma sistemática: técnicas (role, contexto, exemplos, restrições, chain-of-thought, few-shot).
+Criar uma pequena “biblioteca pessoal de prompts” para tarefas comuns: resumo, classificação, extração de informação, reescrita e ideação.
+
+MÊS 2 – RAG, AGENTES E INTEGRAÇÃO
+
+SEMANA 5–6:
+
+Aprender o conceito de RAG: embeddings, vetorização, busca semântica, contexto vs. fine-tuning.
+Implementar um protótipo simples de RAG: por exemplo, fazer upload de PDFs/artigos e criar um Q&A sobre esses documentos em um notebook.
+
+SEMANA 7–8:
+
+Estudar agentes de IA: tool calling, uso de funções, orquestração de passos, limites e riscos.
+Construir um agente simples que consiga, por exemplo, consultar uma base (RAG) + chamar uma API (como clima, notícias, ou dados fictícios de negócio) para responder a perguntas.
+
+MÊS 3 – PORTFÓLIO E PREPARAÇÃO PROFISSIONAL
+
+SEMANA 9–10:
+
+Transformar um dos protótipos (RAG ou agente) em um miniproduto: interface básica (web simples) ou fluxo claro de uso.
+Documentar bem o projeto: problema, solução, arquitetura simples, decisões técnicas, limitações e próximos passos.
+
+SEMANA 11–12:
+
+Ajustar o projeto para ficar “apresentável” em entrevista: código organizado, README, prints, ou demo gravada em vídeo curta.
+Treinar explicação do projeto e revisar perguntas comuns sobre IA generativa, LLMs, RAG e seu papel como profissional nessa área.
+```
+
+---
+
+## 6. Projeto de portfólio
+
+**LLM (Agent 2):**
+
+```text
+🚀 PROJETO DE PORTFÓLIO
+
+PROJETO: Assistente de Insights para Marketing com RAG e LLM
+
+O QUE FAZER:
+Criar um assistente de IA que ajuda um time de marketing a responder perguntas sobre campanhas, público-alvo e estratégias, usando documentos e dados internos como base. Você pode:
+
+Definir um cenário fictício (por exemplo, uma empresa de e-commerce ou curso online).
+Carregar materiais de marketing (PDFs, briefs, planilhas simples com resultados de campanhas, descrições de persona – pode ser tudo simulado).
+Usar RAG para permitir que o assistente responda perguntas do tipo: “Quais foram os principais canais que performaram melhor no último trimestre?”, “Quais insights posso tirar sobre o público X?”, “Sugira ideias de campanha baseadas nesse histórico”.
+
+ENTREGÁVEIS:
+
+Código do projeto (notebook + script/app simples) em um repositório organizado.
+Documentação (README) explicando: contexto, problema, solução, arquitetura, como rodar.
+Uma apresentação curta (pode ser slides ou um vídeo de até 5–10 min) mostrando o assistente funcionando e explicando suas escolhas.
+
+CRITÉRIOS DE ACEITAÇÃO:
+
+O assistente consegue consultar a base de documentos/dados e gerar respostas coerentes, citando a fonte quando possível.
+A arquitetura de RAG está minimamente clara (como você cria embeddings, como armazena, como busca, como monta o contexto).
+Você consegue explicar claramente em linguagem simples o que é RAG, o que é um LLM e por que essa solução ajuda o time de marketing.
+
+DICA:
+Aproveite seu interesse em marketing: use termos, exemplos e métricas reais de marketing (como CTR, CPA, funil, persona). Isso mostra que você já está conectando IA com estratégia e área de negócio, o que é muito valorizado.
+```
+
+---
+
+## 7. Roteiro de entrevistas
+
+**LLM (Agent 2):**
+
+```text
+💬 ROTEIRO DE ENTREVISTAS
+
+PERGUNTA 1: “Conte um projeto de IA/GenAI que você desenvolveu ou participou.”
+COMO RESPONDER:
+
+Estruture em: contexto → problema → solução → resultado → aprendizados.
+Use o projeto do assistente de marketing (ou algo do seu estágio): detalhe qual era o objetivo, quais técnicas usou (LLM, RAG, agentes, prompts) e o que melhoraria hoje.
+
+PERGUNTA 2: “Qual a diferença entre treinar um modelo e usar RAG com LLM?”
+COMO RESPONDER:
+
+Explique que treinar/fazer fine-tuning altera os pesos do modelo, enquanto RAG mantém o modelo como está e adiciona contexto via busca em base de conhecimento.
+Comente vantagens: RAG é mais flexível e barato para atualizar conhecimento; fine-tuning faz mais sentido quando você precisa de estilos/tarefas muito específicos.
+
+PERGUNTA 3: “Como você lida com alucinações de LLMs?”
+COMO RESPONDER:
+
+Cite estratégias: usar RAG bem feito, dar contexto mais rico, pedir para o modelo citar fontes, validar com regras/checks adicionais.
+Se possível, dê exemplo do seu projeto: como você tentou reduzir respostas inventadas e melhorar a precisão.
+
+PERGUNTA 4: “Qual o papel da engenharia de prompt no seu dia a dia?”
+COMO RESPONDER:
+
+Diga que é uma habilidade central para controlar o comportamento do modelo: definir persona, objetivo, formato de resposta, exemplos, restrições.
+Comente que você cria prompts reutilizáveis e iterativos, testando e mesurando impacto nas respostas.
+
+PERGUNTA 5: “Você prefere focar mais na parte técnica ou em como a IA gera impacto no negócio?”
+COMO RESPONDER:
+
+Mostre equilíbrio: diga que você gosta da parte técnica (LLMs, RAG, agentes, código), mas que sempre se preocupa com o problema real do usuário/cliente.
+Conecte com seu interesse em estratégia e marketing: “Gosto de usar IA para responder ‘por quê isso importa?’ para o negócio.”
+```
+
+---
+
+## 8. Trilha DIO recomendada e próximos passos
+
+**LLM (Agent 2):**
+
+```text
+🎓 TRILHA DIO RECOMENDADA
+
+TRILHA: Algo na linha de “Formação em Inteligência Artificial & Machine Learning” ou “Formação em IA Generativa / GenAI & LLMs” na DIO (use a trilha que mais se aproxime desses temas no momento em que você buscar).
+
+POR QUE ESSA TRILHA:
+
+Conecta diretamente com sua carreira de Especialista em IA Aplicada, reforçando fundamentos de IA/ML.
+Complementa seu foco em GenAI com projetos guiados e contato com tecnologias e ferramentas usadas no mercado.
+
+PRÓXIMOS PASSOS:
+
+Acesse dio.me
+Busque por uma trilha semelhante a “Inteligência Artificial & Machine Learning” ou “IA Generativa / LLMs”.
+Inscreva-se gratuitamente.
+Siga o cronograma da trilha em paralelo a este roadmap de 90 dias, usando os desafios da DIO como material para fortalecer seu portfólio.
+```
+
+---
+
+## 9. Encerramento do Agent 2
+
+**LLM (Agent 2):**
+
+```text
+✨ Seu plano está pronto!
+
+Lembre-se: a constância (mesmo 1–2 horas bem focadas por dia útil) vai te levar muito longe, ainda mais porque você já está em estágio na área. Comece pela Semana 1, usando também desafios reais do seu estágio para consolidar o que aprender.
+```
+
+---
+
